@@ -1,0 +1,32 @@
+.counter-header{
+    margin-Bottom: 0;
+}
+
+.counter-neg{
+    color: red;
+}
+.counter-pos{
+    color: green;
+}
+
+.counter-zero{
+    color: white;
+}
+
+.counter-button{
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.positive{
+    background-color: green;
+    color: white;
+}
+
+.negative{
+    background-color: red;
+    color: white;
+}
