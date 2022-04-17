@@ -3,6 +3,8 @@ import {
   CLEAR_TODO_LIST,
   DELETE_TODO,
   TOGGLE_TODO,
+  // EDIT_TODO,
+
 } from "../types/todoTypes";
 
 export const addTodo = (payload) => {
@@ -23,8 +25,14 @@ export const clearTodoList = () => {
   return {
     type: CLEAR_TODO_LIST,
   };
+// };
+// export const editTodo = (payload) => {
+//   return {
+//       type: EDIT_TODO,
+//       payload
+//   };
+// }
 };
-
 export const toggle_todo = (payload) => {
   return {
     type: TOGGLE_TODO,

@@ -4,12 +4,16 @@ import { addTodo } from "../../redux/actions/todoActions";
 
 const TodoInput = () => {
   const [text, setText] = useState("");
+  const [textList,setTextList] = useState([])
   const dispatch = useDispatch()
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(addTodo(text))
-    setText('')
+    setTextList([...textList,text])
+    if(text!=="" && !textList.includes(text)){
+      dispatch(addTodo(text));
+      setText("");
+    }
   };
   
   return (

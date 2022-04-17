@@ -1,3 +1,13 @@
+/* .app{
+  min-height: calc(100vh - 90px);  
+}
+.app-header{
+  letter-spacing: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: bisque;
+} */
+
 .todo-input {
   padding: 10px;
   font-size: 1rem;
@@ -23,8 +33,14 @@
   align-items: center;
 }
 
+.edit-logo {
+  width: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+
 .todo-list {
-  min-width: 400px;
+  min-width: 600px;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -38,6 +54,7 @@
 }
 
 .clear-button {
+  margin-top: 10px;
   padding: 10px;
   font-size: 1rem;
   background-color: red;
@@ -50,3 +67,34 @@
   margin: 10px;
   cursor: pointer;
 }
+
+.delete-logo:hover,.edit-logo:hover,.ok-logo:hover{
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+/* .update{
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: orangered;
+  color: white;
+  border-radius:45px;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+.todo-edit { 
+  text-align: center;
+  color:orangered;
+  background-color:bisque;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius:15px;
+  width: 100%;
+  height: 40px;
+}
+.todoEdit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
