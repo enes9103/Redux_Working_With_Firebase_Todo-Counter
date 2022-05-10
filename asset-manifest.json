@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Redux_Working_With_Firebase_Todo-Counter/static/css/main.d9179925.css",
+    "main.js": "/Redux_Working_With_Firebase_Todo-Counter/static/js/main.d6bded5d.js",
+    "static/js/787.f9a5e97b.chunk.js": "/Redux_Working_With_Firebase_Todo-Counter/static/js/787.f9a5e97b.chunk.js",
+    "static/media/ok.png": "/Redux_Working_With_Firebase_Todo-Counter/static/media/ok.fb57861277c62f1f6c58.png",
+    "static/media/delete.png": "/Redux_Working_With_Firebase_Todo-Counter/static/media/delete.daac4de8902f2d4aa43c.png",
+    "index.html": "/Redux_Working_With_Firebase_Todo-Counter/index.html",
+    "main.d9179925.css.map": "/Redux_Working_With_Firebase_Todo-Counter/static/css/main.d9179925.css.map",
+    "main.d6bded5d.js.map": "/Redux_Working_With_Firebase_Todo-Counter/static/js/main.d6bded5d.js.map",
+    "787.f9a5e97b.chunk.js.map": "/Redux_Working_With_Firebase_Todo-Counter/static/js/787.f9a5e97b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9179925.css",
+    "static/js/main.d6bded5d.js"
+  ]
+}
