@@ -7,6 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+![Project gif](redux-middleware.gif)
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
